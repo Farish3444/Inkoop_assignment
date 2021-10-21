@@ -5,4 +5,28 @@ ul {
 
 li {
   color: gray;
+  cursor: pointer;
 }
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav li {
+  /* float: left; */
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 2px solid transparent;
+}
+
+.topnav li:hover {
+  border-bottom: 5px solid red;
+  transform: translateX(-1%);
+}
+
+/* .topnav li.active {
+  border-bottom: 3px solid red;
+} */

@@ -9,7 +9,7 @@ const Cards = ({title,image}) => {
 src={image}
 alt="Avatar"    
 />
-  <h1 style={{fontSize:'20px'}}>{title}</h1>
+  <h1 style={{fontSize:'15px'}}>{title}</h1>
 </div> 
     </div>
     )

@@ -15,7 +15,7 @@ const LandingPage = () => {
                 image={"https://imgk.timesnownews.com/story/chad-montano-lP5MCM6nZ5A-unsplash.jpg?tr=w-400,h-300,fo-auto"}
             />
             <Cards 
-                title="FarmHouse Pizza"
+                title="FarmHousePizza"
                 image={"https://res.cloudinary.com/purnesh/image/upload/w_540,f_auto/untitled-11606391037854.jpg"}
             />
             <Cards 

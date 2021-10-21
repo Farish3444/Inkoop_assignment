@@ -18,9 +18,11 @@ const NavList = () => {
             {
                 list.map((l,i)=>{
                     return(
+                    <div className="topnav">
                         <ul key={l.id}>
-                            <li>{l.items}</li>                        
+                            <li><a>{l.items}</a></li>                        
                         </ul>
+                    </div>
                     )
                 })
             }

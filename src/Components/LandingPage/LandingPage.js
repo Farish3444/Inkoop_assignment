@@ -7,8 +7,7 @@ import NavList from '../NavBar/NavList';
 const LandingPage = () => {
     return (
         <React.Fragment>
-
-<h1 style={{fontFamily:'Brush Script MT',fontSize:'60px'}}>What are you Havaing for Lunch ?</h1>
+<h1 style={{fontFamily:'Copperplate, Papyrus, fantasy',fontSize:'70px'}}>What are you <br/> Havaing for Lunch ?</h1>
 <NavList />
         <div className='landingCards'>
             <Cards 

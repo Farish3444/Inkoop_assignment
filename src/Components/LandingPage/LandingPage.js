@@ -7,7 +7,7 @@ import NavList from '../NavBar/NavList';
 const LandingPage = () => {
     return (
         <React.Fragment>
-<h1 style={{fontFamily:'Copperplate, Papyrus, fantasy',fontSize:'70px'}}>What are you <br/> Havaing for Lunch ?</h1>
+<h1 style={{fontFamily:'Copperplate, Papyrus, fantasy',fontSize:'70px',textAlign:'center',alignSelf:'center'}}>What are you <br/> Havaing for Lunch ?</h1>
 <NavList />
         <div className='landingCards'>
             <Cards 
@@ -31,7 +31,6 @@ const LandingPage = () => {
                 image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrTkjnS3XQfgOC_pHxIlpDkSxtHkShgvRVFQ&usqp=CAU"}
             />
         </div>
-        {/* <Button /> */}
         </React.Fragment>
     )
 }

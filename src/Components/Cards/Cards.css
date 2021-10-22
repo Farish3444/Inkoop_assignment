@@ -1,27 +1,39 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 350px;
+  max-width: 650px;
   margin: auto;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  text-align: center;
+  margin-left: 99px;
+  margin-bottom: -15px;
+  /* text-align: center; */
   font-family: arial;
   border-radius: 10%;
-  height: 180px;
+  height: 150px;
+  width: 69%;
 }
 
 img {
   border-radius: 50%;
   vertical-align: middle;
   width: 100px;
-  height: 100px;
+  height: 90px;
 }
 
 .landingCards {
   margin-top: -20%;
 }
 
-button:hover,
-a:hover {
-  opacity: 0.7;
+/* @media screen and (min-width: 1180px) {
+  body {
+    background-color: lightgreen;
+  }
+} */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .landingCards {
+    margin-top: -600px;
+  }
+  .card {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
 }

@@ -23,7 +23,7 @@ li {
 }
 
 .topnav li:hover {
-  border-bottom: 5px solid red;
+  border-bottom: translate(5px solid red);
   transform: translateX(-1%);
 }
 

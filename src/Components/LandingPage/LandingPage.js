@@ -1,14 +1,24 @@
-import React from 'react'
+import React, { useEffect,useState } from 'react'
 // import Button from '../Button/Button';
 import Cards  from '../Cards/Cards';
 import '../Cards/Cards.css'
 import NavList from '../NavBar/NavList';
 
 const LandingPage = () => {
+    const[width,setWidth] = useState(null)
+    useEffect(()=>{
+        setWidth(window.innerWidth)
+    },[])
+
+
     return (
         <React.Fragment>
 <h1 style={{fontFamily:'Copperplate, Papyrus, fantasy',fontSize:'70px',textAlign:'center',alignSelf:'center'}}>What are you <br/> Havaing for Lunch ?</h1>
-<NavList />
+<div style={{display:"flex",flexDirection:'row'}}>
+<div>
+    <NavList />
+{/* {width <= 600 ? null :<NavList />} */}
+</div>
         <div className='landingCards'>
             <Cards 
                 title="Mexican Taco"
@@ -30,6 +40,7 @@ const LandingPage = () => {
                 title="Hakka Noddles"
                 image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrTkjnS3XQfgOC_pHxIlpDkSxtHkShgvRVFQ&usqp=CAU"}
             />
+        </div>
         </div>
         </React.Fragment>
     )

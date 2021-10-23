@@ -13,7 +13,7 @@ const list = [
 // "About","Services","Cuisine","Gallery","Contact","Book"
 const NavList = () => {
     return (
-        <div style={{marginTop:'-10%',justifyContent:'space-between'}}>
+        <div style={{marginTop:'-10%',justifyContent:'space-between',width:"100px"}}>
 <h1 style={{fontFamily:'Brush Script MT',fontSize:'60px',marginRight:'85%'}}>List of Items</h1>
             {
                 list.map((l,i)=>{

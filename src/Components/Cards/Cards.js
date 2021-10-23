@@ -3,7 +3,7 @@ import './Cards.css'
 
 const Cards = ({title,image}) => {
     return (
-        <div style={{ display:"inline-block"}}>
+        <div >
 <div className="card">
 <img  
 src={image}
